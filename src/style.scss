@@ -8,3 +8,38 @@ html {
 	padding: 0;
 	font-family: sans-serif;
 }
+
+$blue: #2e84f6;
+$text: #333335;
+$art: #5d69ff;
+
+main {
+	width: 375px;
+	padding: 0 30px;
+}
+
+.section-header {
+	display: flex;
+	align-items: center;
+}
+
+.section-header__anchor {
+	margin-left: auto;
+	color: $blue;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	width: 200px;
+	height: 140px;
+	border-radius: 10px;
+	margin-right: 10px;
+}
