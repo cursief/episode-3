@@ -8,3 +8,33 @@ html {
 	padding: 0;
 	font-family: sans-serif;
 }
+
+.header {
+	padding: 1rem;
+	background: #1880C0 url('images/greece.jpeg');
+	border-bottom-right-radius: 3rem;
+}
+
+.header__top {
+	display: flex;
+}
+
+.header__title {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.header__search {
+	font-size: 16px;
+	padding: .5rem;
+	border-radius: 10px;
+	border: 0;
+	background: rgba(255,255,255,.4);
+}
+
+.location-details {
+	background: rgba(255,255,255,.4);
+	display: flex;
+}
